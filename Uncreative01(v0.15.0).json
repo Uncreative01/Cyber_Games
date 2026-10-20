@@ -2,10 +2,10 @@
 	"name": "Uncreative01",
 	"version": "0.15.0",
 	"worldkey": 0,
-	"gem": 39,
+	"gem": 76,
 	"ticket": 0,
-	"sprout": 15,
-	"coin": 5060,
+	"sprout": 26,
+	"coin": 8800,
 	"forceLevel": "",
 	"features": {
 		"feature_lod": true,
@@ -21,7 +21,8 @@
 		"feature_plantfood_purchase": true,
 		"world_trophy_egypt": true,
 		"world_trophy_pirate": true,
-		"world_trophy_cowboy": true
+		"world_trophy_cowboy": true,
+		"world_trophy_future": true
 	},
 	"tutorial": {
 		"plantfood": true,
@@ -57,16 +58,21 @@
 					"lod_74",
 					"lod_102",
 					"lod_111",
-					"lod_234"
+					"lod_234",
+					"lod_259",
+					"lod_80",
+					"lod_45",
+					"lod_151",
+					"lod_61"
 				]
 			}
 		},
-		"level_of_today": "lod_234"
+		"level_of_today": "lod_61"
 	},
 	"plant_of_the_week": {
-		"current_plant": "turkeypult",
+		"current_plant": "shootingstarfruit",
 		"last_read_time": {
-			"date": 6,
+			"date": 20,
 			"month": 9,
 			"year": 2026
 		},
@@ -74,60 +80,62 @@
 			"imitater",
 			"witchhazel",
 			"darkmatterdragonfruit",
-			"turkeypult"
+			"turkeypult",
+			"snappea",
+			"shootingstarfruit"
 		]
 	},
 	"date": {
-		"date": 6,
+		"date": 20,
 		"month": 10,
 		"year": 2026,
-		"lunar_date": 26,
-		"lunar_month": 8,
+		"lunar_date": 11,
+		"lunar_month": 9,
 		"lunar_year": 2026,
-		"hour": 13,
-		"minute": 34,
-		"second": 6,
+		"hour": 8,
+		"minute": 40,
+		"second": 55,
 		"plantCostumeToday": [
 			{
-				"plant_type": "peashooter",
-				"costume": 0
-			},
-			{
-				"plant_type": "peashooter",
-				"costume": 5
-			},
-			{
-				"plant_type": "twinsunflower",
+				"plant_type": "kernelpult",
 				"costume": 1
-			},
-			{
-				"plant_type": "wallnut",
-				"costume": 4
-			},
-			{
-				"plant_type": "repeater",
-				"costume": 5
 			},
 			{
 				"plant_type": "iceburg",
 				"costume": 3
 			},
 			{
-				"plant_type": "tallnut",
+				"plant_type": "iceweed",
+				"costume": 0
+			},
+			{
+				"plant_type": "twinsunflower",
+				"costume": 2
+			},
+			{
+				"plant_type": "snapdragon",
 				"costume": 4
 			},
 			{
-				"plant_type": "sunflower",
-				"costume": 4
+				"plant_type": "repeater",
+				"costume": 3
+			},
+			{
+				"plant_type": "repeater",
+				"costume": 6
+			},
+			{
+				"plant_type": "bloomerang",
+				"costume": 0
 			}
 		]
 	},
-	"time": 1791304446791,
+	"time": 1792496455674,
 	"arcade_plant_decoding": {
 		"played_today": false,
 		"gem_today": 0,
-		"max_base_count": 5,
-		"max_code_count": 6
+		"max_base_count": 3,
+		"max_code_count": 3
 	},
 	"yeti_spawned_today": false,
 	"zombieProps": {
@@ -352,6 +360,534 @@
 		},
 		"dark_flag": {
 			"progress": 2
+		},
+		"future": {
+			"progress": 2
+		},
+		"future_jetpack": {
+			"progress": 2
+		},
+		"future_armor2": {
+			"progress": 2
+		},
+		"future_armor1": {
+			"progress": 2
+		},
+		"future_flag": {
+			"progress": 2
+		},
+		"future_imp": {
+			"progress": 2
+		},
+		"mech_cone": {
+			"progress": 2
+		},
+		"future_gargantuar": {
+			"progress": 2
+		},
+		"tutorial_armor4": {
+			"progress": 0
+		},
+		"tutorial_flag_veteran": {
+			"progress": 0
+		},
+		"duckytube": {
+			"progress": 0
+		},
+		"tutorial_gargantuar": {
+			"progress": 0
+		},
+		"vase_gargantuar": {
+			"progress": 0
+		},
+		"mummy_armor4": {
+			"progress": 0
+		},
+		"mummy_flag_veteran": {
+			"progress": 0
+		},
+		"explorer_veteran": {
+			"progress": 0
+		},
+		"pirate_armor4": {
+			"progress": 0
+		},
+		"pirate_flag_veteran": {
+			"progress": 0
+		},
+		"pelican": {
+			"progress": 0
+		},
+		"cowboy_armor4": {
+			"progress": 0
+		},
+		"cowboy_flag_veteran": {
+			"progress": 0
+		},
+		"west_bull_veteran": {
+			"progress": 0
+		},
+		"future_armor4": {
+			"progress": 0
+		},
+		"future_flag_veteran": {
+			"progress": 0
+		},
+		"future_jetpack_veteran": {
+			"progress": 0
+		},
+		"future_jetpack_disco": {
+			"progress": 2
+		},
+		"disco_mech": {
+			"progress": 2
+		},
+		"football_mech": {
+			"progress": 2
+		},
+		"zombossmech_future": {
+			"progress": 2
+		},
+		"dark_armor4": {
+			"progress": 0
+		},
+		"dark_flag_veteran": {
+			"progress": 0
+		},
+		"dark_juggler": {
+			"progress": 0
+		},
+		"dark_gargantuar": {
+			"progress": 0
+		},
+		"dark_wizard": {
+			"progress": 0
+		},
+		"dark_wizard_veteran": {
+			"progress": 0
+		},
+		"dark_king_veteran": {
+			"progress": 0
+		},
+		"dark_imp_dragon": {
+			"progress": 0
+		},
+		"zombossmech_dark": {
+			"progress": 0
+		},
+		"beach": {
+			"progress": 0
+		},
+		"beach_armor1": {
+			"progress": 0
+		},
+		"beach_armor2": {
+			"progress": 0
+		},
+		"beach_armor4": {
+			"progress": 0
+		},
+		"beach_flag": {
+			"progress": 0
+		},
+		"beach_flag_veteran": {
+			"progress": 0
+		},
+		"beach_fem": {
+			"progress": 0
+		},
+		"beach_fem_armor1": {
+			"progress": 0
+		},
+		"beach_fem_armor2": {
+			"progress": 0
+		},
+		"beach_fem_armor4": {
+			"progress": 0
+		},
+		"beach_snorkel": {
+			"progress": 0
+		},
+		"beach_imp": {
+			"progress": 0
+		},
+		"beach_surfer_veteran": {
+			"progress": 0
+		},
+		"beach_gargantuar": {
+			"progress": 0
+		},
+		"beach_octopus": {
+			"progress": 0
+		},
+		"beach_fisherman": {
+			"progress": 0
+		},
+		"zombossmech_beach": {
+			"progress": 0
+		},
+		"iceage_armor3": {
+			"progress": 0
+		},
+		"iceage_armor4": {
+			"progress": 0
+		},
+		"iceage_flag_veteran": {
+			"progress": 0
+		},
+		"iceage_hunter": {
+			"progress": 0
+		},
+		"iceage_hunter_veteran": {
+			"progress": 0
+		},
+		"iceage_dodo": {
+			"progress": 0
+		},
+		"iceage_troglobite_veteran": {
+			"progress": 0
+		},
+		"iceage_weaselhoarder": {
+			"progress": 0
+		},
+		"iceage_weasel": {
+			"progress": 0
+		},
+		"iceage_gargantuar": {
+			"progress": 0
+		},
+		"zombossmech_iceage": {
+			"progress": 0
+		},
+		"lostcity": {
+			"progress": 0
+		},
+		"lostcity_armor1": {
+			"progress": 0
+		},
+		"lostcity_armor2": {
+			"progress": 0
+		},
+		"lostcity_armor4": {
+			"progress": 0
+		},
+		"lostcity_flag": {
+			"progress": 0
+		},
+		"lostcity_flag_veteran": {
+			"progress": 0
+		},
+		"lostcity_imp": {
+			"progress": 0
+		},
+		"lostcity_lostpilot": {
+			"progress": 0
+		},
+		"lostcity_lostpilot_veteran": {
+			"progress": 0
+		},
+		"lostcity_excavator": {
+			"progress": 0
+		},
+		"lostcity_bug": {
+			"progress": 0
+		},
+		"lostcity_gargantuar": {
+			"progress": 0
+		},
+		"lostcity_impporter": {
+			"progress": 0
+		},
+		"lostcity_relichunter": {
+			"progress": 0
+		},
+		"zombossmech_lostcity": {
+			"progress": 0
+		},
+		"kongfu": {
+			"progress": 0
+		},
+		"kongfu_armor1": {
+			"progress": 0
+		},
+		"kongfu_armor2": {
+			"progress": 0
+		},
+		"kongfu_armor4": {
+			"progress": 0
+		},
+		"kongfu_flag": {
+			"progress": 0
+		},
+		"kongfu_flag_veteran": {
+			"progress": 0
+		},
+		"kongfu_torch": {
+			"progress": 0
+		},
+		"kongfu_hammer": {
+			"progress": 0
+		},
+		"kongfu_bomb": {
+			"progress": 0
+		},
+		"kongfu_gong": {
+			"progress": 0
+		},
+		"kongfu_drink": {
+			"progress": 0
+		},
+		"kongfu_chi": {
+			"progress": 0
+		},
+		"kongfu_rocket_imp": {
+			"progress": 0
+		},
+		"monk": {
+			"progress": 0
+		},
+		"monk_armor1": {
+			"progress": 0
+		},
+		"monk_armor2": {
+			"progress": 0
+		},
+		"monk_armor4": {
+			"progress": 0
+		},
+		"monk_flag": {
+			"progress": 0
+		},
+		"monk_flag_veteran": {
+			"progress": 0
+		},
+		"monk_blade": {
+			"progress": 0
+		},
+		"monk_torch": {
+			"progress": 0
+		},
+		"monk_nunchaku": {
+			"progress": 0
+		},
+		"monk_drink": {
+			"progress": 0
+		},
+		"monk_drink_veteran": {
+			"progress": 0
+		},
+		"monk_imp": {
+			"progress": 0
+		},
+		"abbot": {
+			"progress": 0
+		},
+		"abbot_armor1": {
+			"progress": 0
+		},
+		"abbot_armor2": {
+			"progress": 0
+		},
+		"abbot_armor4": {
+			"progress": 0
+		},
+		"abbot_flag": {
+			"progress": 0
+		},
+		"abbot_flag_veteran": {
+			"progress": 0
+		},
+		"abbot_torch": {
+			"progress": 0
+		},
+		"abbot_fan": {
+			"progress": 0
+		},
+		"abbot_chi": {
+			"progress": 0
+		},
+		"abbot_3section_staff": {
+			"progress": 0
+		},
+		"abbot_imp": {
+			"progress": 0
+		},
+		"kongfu_bronze_strong": {
+			"progress": 0
+		},
+		"kongfu_bronze_hook": {
+			"progress": 0
+		},
+		"kongfu_bronze_chi": {
+			"progress": 0
+		},
+		"kongfu_boss_explode": {
+			"progress": 0
+		},
+		"kongfu_boss_blade": {
+			"progress": 0
+		},
+		"kongfu_boss_chi": {
+			"progress": 0
+		},
+		"eighties": {
+			"progress": 0
+		},
+		"eighties_armor1": {
+			"progress": 0
+		},
+		"eighties_armor2": {
+			"progress": 0
+		},
+		"eighties_armor4": {
+			"progress": 0
+		},
+		"eighties_flag": {
+			"progress": 0
+		},
+		"eighties_flag_veteran": {
+			"progress": 0
+		},
+		"eighties_punk": {
+			"progress": 0
+		},
+		"eighties_punk_veteran": {
+			"progress": 0
+		},
+		"eighties_skunk": {
+			"progress": 0
+		},
+		"eighties_glitter": {
+			"progress": 0
+		},
+		"eighties_mc": {
+			"progress": 0
+		},
+		"eighties_imp": {
+			"progress": 0
+		},
+		"eighties_gargantuar": {
+			"progress": 0
+		},
+		"eighties_breakdancer": {
+			"progress": 0
+		},
+		"eighties_arcade": {
+			"progress": 0
+		},
+		"eighties_8bit": {
+			"progress": 0
+		},
+		"eighties_boombox": {
+			"progress": 0
+		},
+		"zombossmech_eighties": {
+			"progress": 0
+		},
+		"dino": {
+			"progress": 0
+		},
+		"dino_armor1": {
+			"progress": 0
+		},
+		"dino_armor2": {
+			"progress": 0
+		},
+		"dino_armor3": {
+			"progress": 0
+		},
+		"dino_armor4": {
+			"progress": 0
+		},
+		"dino_flag": {
+			"progress": 0
+		},
+		"dino_flag_veteran": {
+			"progress": 0
+		},
+		"dino_bully": {
+			"progress": 0
+		},
+		"dino_bully_veteran": {
+			"progress": 0
+		},
+		"dino_imp": {
+			"progress": 0
+		},
+		"dino_gargantuar": {
+			"progress": 0
+		},
+		"zombossmech_dino": {
+			"progress": 0
+		},
+		"sky": {
+			"progress": 0
+		},
+		"sky_armor1": {
+			"progress": 0
+		},
+		"sky_armor2": {
+			"progress": 0
+		},
+		"sky_flag": {
+			"progress": 0
+		},
+		"sky_battleplane": {
+			"progress": 0
+		},
+		"sky_twin": {
+			"progress": 0
+		},
+		"sky_electric": {
+			"progress": 0
+		},
+		"sky_dronemaker": {
+			"progress": 0
+		},
+		"sky_arbiterx": {
+			"progress": 0
+		},
+		"sky_imp": {
+			"progress": 0
+		},
+		"sky_gargantuar": {
+			"progress": 0
+		},
+		"zombossmech_sky": {
+			"progress": 0
+		},
+		"modern_newspaper": {
+			"progress": 0
+		},
+		"newspaper_veteran": {
+			"progress": 0
+		},
+		"modern_balloon": {
+			"progress": 0
+		},
+		"modern_allstar": {
+			"progress": 0
+		},
+		"modern_superfanimp": {
+			"progress": 0
+		},
+		"zomboni": {
+			"progress": 0
+		},
+		"bobsled_team": {
+			"progress": 0
+		},
+		"bobsled": {
+			"progress": 0
+		},
+		"catapult": {
+			"progress": 0
+		},
+		"supernova_gargantuar": {
+			"progress": 0
+		},
+		"future_infinut_shield": {
+			"progress": 2
 		}
 	},
 	"plantProps": {
@@ -384,10 +920,12 @@
 			"medal": false,
 			"progress": 1,
 			"tutorialLevel": 1,
-			"costume": 1,
+			"costume": 2,
 			"costumes": [
 				1,
-				8
+				8,
+				3,
+				2
 			],
 			"boost": 0
 		},
@@ -517,9 +1055,10 @@
 			"medal": false,
 			"progress": 2,
 			"tutorialLevel": 1,
-			"costume": 3,
+			"costume": 1,
 			"costumes": [
-				3
+				3,
+				1
 			],
 			"boost": 0
 		},
@@ -527,8 +1066,10 @@
 			"medal": false,
 			"progress": 2,
 			"tutorialLevel": 1,
-			"costume": -1,
-			"costumes": [],
+			"costume": 1,
+			"costumes": [
+				1
+			],
 			"boost": 0
 		},
 		"coconutcannon": {
@@ -585,8 +1126,10 @@
 			"medal": false,
 			"progress": 2,
 			"tutorialLevel": 1,
-			"costume": -1,
-			"costumes": [],
+			"costume": 0,
+			"costumes": [
+				0
+			],
 			"boost": 0
 		},
 		"chilibean": {
@@ -641,8 +1184,10 @@
 			"medal": false,
 			"progress": 2,
 			"tutorialLevel": 1,
-			"costume": -1,
-			"costumes": [],
+			"costume": 1,
+			"costumes": [
+				1
+			],
 			"boost": 0
 		},
 		"wintermelon": {
@@ -687,7 +1232,7 @@
 		},
 		"marigold": {
 			"medal": false,
-			"progress": 0,
+			"progress": 1,
 			"tutorialLevel": 0,
 			"costume": -1,
 			"costumes": [],
@@ -695,32 +1240,32 @@
 		},
 		"laser_bean": {
 			"medal": false,
-			"progress": 0,
-			"tutorialLevel": 0,
+			"progress": 2,
+			"tutorialLevel": 1,
 			"costume": -1,
 			"costumes": [],
 			"boost": 0
 		},
 		"blover": {
 			"medal": false,
-			"progress": 0,
-			"tutorialLevel": 0,
+			"progress": 2,
+			"tutorialLevel": 1,
 			"costume": -1,
 			"costumes": [],
 			"boost": 0
 		},
 		"citron": {
 			"medal": false,
-			"progress": 0,
-			"tutorialLevel": 0,
+			"progress": 2,
+			"tutorialLevel": 1,
 			"costume": -1,
 			"costumes": [],
 			"boost": 0
 		},
 		"empea": {
 			"medal": false,
-			"progress": 0,
-			"tutorialLevel": 0,
+			"progress": 2,
+			"tutorialLevel": 1,
 			"costume": -1,
 			"costumes": [],
 			"boost": 0
@@ -728,7 +1273,7 @@
 		"starfruit": {
 			"medal": false,
 			"progress": 0,
-			"tutorialLevel": 0,
+			"tutorialLevel": 1,
 			"costume": -1,
 			"costumes": [],
 			"boost": 0
@@ -751,64 +1296,64 @@
 		},
 		"holonut": {
 			"medal": false,
-			"progress": 0,
-			"tutorialLevel": 0,
+			"progress": 2,
+			"tutorialLevel": 1,
 			"costume": -1,
 			"costumes": [],
 			"boost": 0
 		},
 		"magnifyinggrass": {
 			"medal": false,
-			"progress": 0,
-			"tutorialLevel": 0,
+			"progress": 2,
+			"tutorialLevel": 1,
 			"costume": -1,
 			"costumes": [],
 			"boost": 0
 		},
 		"powerplant": {
 			"medal": false,
-			"progress": 0,
-			"tutorialLevel": 0,
+			"progress": 2,
+			"tutorialLevel": 1,
 			"costume": -1,
 			"costumes": [],
 			"boost": 0
 		},
 		"powerplant_alpha": {
 			"medal": false,
-			"progress": 0,
-			"tutorialLevel": 0,
+			"progress": 2,
+			"tutorialLevel": 1,
 			"costume": -1,
 			"costumes": [],
 			"boost": 0
 		},
 		"powerplant_beta": {
 			"medal": false,
-			"progress": 0,
-			"tutorialLevel": 0,
+			"progress": 2,
+			"tutorialLevel": 1,
 			"costume": -1,
 			"costumes": [],
 			"boost": 0
 		},
 		"powerplant_gamma": {
 			"medal": false,
-			"progress": 0,
-			"tutorialLevel": 0,
+			"progress": 2,
+			"tutorialLevel": 1,
 			"costume": -1,
 			"costumes": [],
 			"boost": 0
 		},
 		"powerplant_epsilon": {
 			"medal": false,
-			"progress": 0,
-			"tutorialLevel": 0,
+			"progress": 2,
+			"tutorialLevel": 1,
 			"costume": -1,
 			"costumes": [],
 			"boost": 0
 		},
 		"powerplant_delta": {
 			"medal": false,
-			"progress": 0,
-			"tutorialLevel": 0,
+			"progress": 2,
+			"tutorialLevel": 1,
 			"costume": -1,
 			"costumes": [],
 			"boost": 0
@@ -863,7 +1408,7 @@
 		},
 		"sunshroom": {
 			"medal": false,
-			"progress": 0,
+			"progress": 2,
 			"tutorialLevel": 1,
 			"costume": -1,
 			"costumes": [],
@@ -1925,7 +2470,7 @@
 		},
 		"upgrade_sunshovel_lvl1": {
 			"progress": 2,
-			"enabled": false
+			"enabled": true
 		},
 		"upgrade_sunshovel_lvl2": {
 			"progress": 2,
@@ -1944,7 +2489,7 @@
 			"enabled": true
 		},
 		"upgrade_manual_mowers_1": {
-			"progress": 0,
+			"progress": 2,
 			"enabled": true
 		},
 		"upgrade_manual_mowers_2": {
@@ -1996,6 +2541,12 @@
 			"progress": 1
 		},
 		"worldtrophy_cowboy": {
+			"progress": 1
+		},
+		"dangerroom_future": {
+			"progress": 1
+		},
+		"worldtrophy_future": {
 			"progress": 1
 		}
 	},
@@ -2074,19 +2625,19 @@
 			"progress": 4
 		},
 		"egypt20_1": {
-			"progress": 1
+			"progress": 4
 		},
 		"egypt21": {
 			"progress": 4
 		},
 		"egypt21_1": {
-			"progress": 1
+			"progress": 4
 		},
 		"egypt22": {
 			"progress": 4
 		},
 		"egypt22_1": {
-			"progress": 1
+			"progress": 4
 		},
 		"egypt23": {
 			"progress": 4
@@ -2095,7 +2646,7 @@
 			"progress": 4
 		},
 		"egypt24_1": {
-			"progress": 1
+			"progress": 4
 		},
 		"egypt25": {
 			"progress": 4
@@ -2152,7 +2703,7 @@
 			"progress": 0
 		},
 		"future20": {
-			"progress": 0
+			"progress": 4
 		},
 		"future28": {
 			"progress": 0
@@ -2287,7 +2838,7 @@
 			"progress": 4
 		},
 		"pirate18_1": {
-			"progress": 1
+			"progress": 4
 		},
 		"pirate19": {
 			"progress": 4
@@ -2296,7 +2847,7 @@
 			"progress": 4
 		},
 		"pirate20_1": {
-			"progress": 1
+			"progress": 4
 		},
 		"pirate21": {
 			"progress": 4
@@ -2305,19 +2856,19 @@
 			"progress": 4
 		},
 		"pirate22_1": {
-			"progress": 1
+			"progress": 4
 		},
 		"pirate23": {
 			"progress": 4
 		},
 		"pirate23_1": {
-			"progress": 1
+			"progress": 4
 		},
 		"pirate24": {
 			"progress": 4
 		},
 		"pirate24_1": {
-			"progress": 1
+			"progress": 2
 		},
 		"pirate25": {
 			"progress": 4
@@ -2519,6 +3070,261 @@
 		},
 		"squash3": {
 			"progress": 4
+		},
+		"future1": {
+			"progress": 4
+		},
+		"future2": {
+			"progress": 4
+		},
+		"future3": {
+			"progress": 4
+		},
+		"future4": {
+			"progress": 4
+		},
+		"future5": {
+			"progress": 4
+		},
+		"future6": {
+			"progress": 4
+		},
+		"future7": {
+			"progress": 4
+		},
+		"future8": {
+			"progress": 4
+		},
+		"future9": {
+			"progress": 4
+		},
+		"future10": {
+			"progress": 4
+		},
+		"future10_1": {
+			"progress": 1
+		},
+		"future10_2": {
+			"progress": 0
+		},
+		"future10_3": {
+			"progress": 0
+		},
+		"future10_4": {
+			"progress": 0
+		},
+		"future11": {
+			"progress": 4
+		},
+		"future12": {
+			"progress": 4
+		},
+		"future13": {
+			"progress": 4
+		},
+		"future14": {
+			"progress": 4
+		},
+		"future15": {
+			"progress": 4
+		},
+		"future16": {
+			"progress": 4
+		},
+		"future17": {
+			"progress": 4
+		},
+		"future18": {
+			"progress": 4
+		},
+		"future19": {
+			"progress": 4
+		},
+		"future21": {
+			"progress": 4
+		},
+		"future22": {
+			"progress": 4
+		},
+		"future23": {
+			"progress": 4
+		},
+		"future24": {
+			"progress": 4
+		},
+		"future25": {
+			"progress": 4
+		},
+		"future26": {
+			"progress": 1
+		},
+		"future27": {
+			"progress": 0
+		},
+		"future29": {
+			"progress": 0
+		},
+		"future30": {
+			"progress": 0
+		},
+		"future32": {
+			"progress": 0
+		},
+		"future33": {
+			"progress": 0
+		},
+		"future34": {
+			"progress": 0
+		},
+		"future35": {
+			"progress": 0
+		},
+		"solartomato0": {
+			"progress": 0
+		},
+		"solartomato1": {
+			"progress": 0
+		},
+		"reinforce0": {
+			"progress": 1
+		},
+		"reinforce1": {
+			"progress": 0
+		},
+		"future_dangerroom": {
+			"progress": 4
+		},
+		"future_dangerroom2": {
+			"progress": 0
+		},
+		"future_dangerroom_sunbomb": {
+			"progress": 0
+		},
+		"dark1": {
+			"progress": 4
+		},
+		"dark2": {
+			"progress": 1
+		},
+		"dark3": {
+			"progress": 0
+		},
+		"dark4": {
+			"progress": 0
+		},
+		"dark5": {
+			"progress": 0
+		},
+		"dark6": {
+			"progress": 0
+		},
+		"dark7": {
+			"progress": 0
+		},
+		"dark9": {
+			"progress": 0
+		},
+		"dark10": {
+			"progress": 0
+		},
+		"plantern0": {
+			"progress": 0
+		},
+		"plantern1": {
+			"progress": 0
+		},
+		"dark11": {
+			"progress": 0
+		},
+		"dark12": {
+			"progress": 0
+		},
+		"dark13": {
+			"progress": 0
+		},
+		"dark14": {
+			"progress": 0
+		},
+		"dark15": {
+			"progress": 0
+		},
+		"dark16": {
+			"progress": 0
+		},
+		"dark17": {
+			"progress": 0
+		},
+		"dark18_1": {
+			"progress": 0
+		},
+		"dark19": {
+			"progress": 0
+		},
+		"dark20": {
+			"progress": 0
+		},
+		"dark21": {
+			"progress": 0
+		},
+		"dark22": {
+			"progress": 0
+		},
+		"dark23": {
+			"progress": 0
+		},
+		"dark24": {
+			"progress": 0
+		},
+		"dark25": {
+			"progress": 0
+		},
+		"dark26": {
+			"progress": 0
+		},
+		"dark27": {
+			"progress": 0
+		},
+		"dark28": {
+			"progress": 0
+		},
+		"dark29": {
+			"progress": 0
+		},
+		"dark30": {
+			"progress": 0
+		},
+		"iceshroom0": {
+			"progress": 0
+		},
+		"iceshroom1": {
+			"progress": 0
+		},
+		"doomshroom0": {
+			"progress": 0
+		},
+		"doomshroom1": {
+			"progress": 0
+		},
+		"vamporcini0": {
+			"progress": 0
+		},
+		"vamporcini1": {
+			"progress": 0
+		},
+		"poisonpeashooter0": {
+			"progress": 0
+		},
+		"poisonpeashooter1": {
+			"progress": 0
+		},
+		"dark_dangerroom": {
+			"progress": 0
+		},
+		"dark_dangerroom2": {
+			"progress": 0
+		},
+		"dark_dangerroom_potion": {
+			"progress": 0
 		}
 	},
 	"zengarden": {
@@ -2561,7 +3367,13 @@
 				"unlocked": true
 			},
 			{
-				"unlocked": false
+				"unlocked": true
+			},
+			{
+				"unlocked": true
+			},
+			{
+				"unlocked": true
 			},
 			{
 				"unlocked": true
@@ -2573,13 +3385,7 @@
 				"unlocked": true
 			},
 			{
-				"unlocked": false
-			},
-			{
-				"unlocked": false
-			},
-			{
-				"unlocked": false
+				"unlocked": true
 			},
 			{
 				"unlocked": false
@@ -2938,166 +3744,210 @@
 				"plant": "wallnut",
 				"inZen": 0,
 				"pos": 0,
-				"grownTime": 64799999,
-				"oldTime": 1791200619394,
-				"stuck": true,
-				"waterCD": 0,
-				"waterLeftTime": 0,
-				"requirement": 0
+				"grownTime": 86418906,
+				"oldTime": 1792413493015,
+				"stuck": false,
+				"waterCD": 8520.980846092296,
+				"waterLeftTime": -1,
+				"requirement": 2
 			},
 			{
 				"plant": "bonkchoy",
 				"inZen": 0,
 				"pos": 1,
-				"grownTime": 43199999,
-				"oldTime": 1791200619394,
-				"stuck": true,
-				"waterCD": 0,
-				"waterLeftTime": 0,
-				"requirement": 0
+				"grownTime": 64819906,
+				"oldTime": 1792413493015,
+				"stuck": false,
+				"waterCD": 7130.993047044057,
+				"waterLeftTime": -1,
+				"requirement": 1
 			},
 			{
 				"plant": "bonkchoy",
 				"inZen": 0,
 				"pos": 2,
-				"grownTime": 43199999,
-				"oldTime": 1791200619394,
-				"stuck": true,
-				"waterCD": 0,
-				"waterLeftTime": 0,
-				"requirement": 0
+				"grownTime": 64820290,
+				"oldTime": 1792413493015,
+				"stuck": false,
+				"waterCD": 7395.401076886904,
+				"waterLeftTime": -1,
+				"requirement": 1
 			},
 			{
 				"plant": "gravebuster",
 				"inZen": 0,
 				"pos": 3,
-				"grownTime": 43199999,
-				"oldTime": 1791200619394,
-				"stuck": true,
-				"waterCD": 0,
-				"waterLeftTime": 0,
-				"requirement": 0
+				"grownTime": 64817488,
+				"oldTime": 1792413493015,
+				"stuck": false,
+				"waterCD": 9693.17962831523,
+				"waterLeftTime": -1,
+				"requirement": 1
 			},
 			{
 				"plant": "repeater",
 				"inZen": 0,
 				"pos": 8,
-				"grownTime": 43199999,
-				"oldTime": 1791200619394,
-				"stuck": true,
-				"waterCD": 0,
-				"waterLeftTime": 0,
-				"requirement": 0
+				"grownTime": 64819556,
+				"oldTime": 1792413493015,
+				"stuck": false,
+				"waterCD": 8981.25345806971,
+				"waterLeftTime": -1,
+				"requirement": 1
 			},
 			{
 				"plant": "marigold",
 				"inZen": 0,
 				"pos": 9,
-				"grownTime": 0,
-				"oldTime": 1791200619394,
-				"stuck": true,
-				"waterCD": 0,
-				"waterLeftTime": 0,
-				"requirement": 0
+				"grownTime": 43221590,
+				"oldTime": 1792413493015,
+				"stuck": false,
+				"waterCD": 8353.684388333768,
+				"waterLeftTime": -1,
+				"requirement": 1
 			},
 			{
 				"plant": "bonkchoy",
 				"inZen": 0,
 				"pos": 10,
-				"grownTime": 0,
-				"oldTime": 1791200619394,
-				"stuck": true,
-				"waterCD": 0,
-				"waterLeftTime": 0,
-				"requirement": 0
+				"grownTime": 43218055,
+				"oldTime": 1792413493015,
+				"stuck": false,
+				"waterCD": 9907.59498743084,
+				"waterLeftTime": -1,
+				"requirement": 1
 			},
 			{
 				"plant": "springbean",
 				"inZen": 0,
 				"pos": 11,
-				"grownTime": 0,
-				"oldTime": 1791200619394,
-				"stuck": true,
-				"waterCD": 0,
-				"waterLeftTime": 0,
-				"requirement": 0
+				"grownTime": 43217755,
+				"oldTime": 1792413493015,
+				"stuck": false,
+				"waterCD": 9170.439287415209,
+				"waterLeftTime": -1,
+				"requirement": 1
 			},
 			{
 				"plant": "springbean",
 				"inZen": 0,
 				"pos": 7,
-				"grownTime": 0,
-				"oldTime": 1791200619394,
-				"stuck": true,
-				"waterCD": 0,
-				"waterLeftTime": 2,
-				"requirement": 0
+				"grownTime": 43215004,
+				"oldTime": 1792413493015,
+				"stuck": false,
+				"waterCD": 9245.643945701568,
+				"waterLeftTime": -1,
+				"requirement": 1
 			},
 			{
 				"plant": "threepeater",
 				"inZen": 0,
 				"pos": 15,
-				"grownTime": 0,
-				"oldTime": 1791200619394,
-				"stuck": true,
-				"waterCD": 0,
-				"waterLeftTime": 2,
-				"requirement": 0
+				"grownTime": 43215237,
+				"oldTime": 1792413493015,
+				"stuck": false,
+				"waterCD": 8941.364511091855,
+				"waterLeftTime": -1,
+				"requirement": 1
 			},
 			{
 				"plant": "repeater",
 				"inZen": 0,
 				"pos": 14,
-				"grownTime": 0,
-				"oldTime": 1791200619394,
-				"stuck": true,
-				"waterCD": 0,
-				"waterLeftTime": 2,
-				"requirement": 0
+				"grownTime": 43215587,
+				"oldTime": 1792413493015,
+				"stuck": false,
+				"waterCD": 7878.053820411921,
+				"waterLeftTime": -1,
+				"requirement": 1
 			},
 			{
 				"plant": "repeater",
 				"inZen": 0,
 				"pos": 6,
-				"grownTime": 0,
-				"oldTime": 1791200619394,
-				"stuck": true,
-				"waterCD": 0,
-				"waterLeftTime": 2,
-				"requirement": 0
+				"grownTime": 43215821,
+				"oldTime": 1792413493015,
+				"stuck": false,
+				"waterCD": 9370.33544245171,
+				"waterLeftTime": -1,
+				"requirement": 1
 			},
 			{
 				"plant": "springbean",
 				"inZen": 0,
 				"pos": 4,
-				"grownTime": 0,
-				"oldTime": 1791200619394,
-				"stuck": true,
-				"waterCD": 0,
-				"waterLeftTime": 2,
-				"requirement": 0
+				"grownTime": 43217221,
+				"oldTime": 1792413493015,
+				"stuck": false,
+				"waterCD": 9761.660925046179,
+				"waterLeftTime": -1,
+				"requirement": 1
 			},
 			{
 				"plant": "chilibean",
 				"inZen": 0,
 				"pos": 5,
-				"grownTime": 0,
-				"oldTime": 1791200619394,
-				"stuck": true,
-				"waterCD": 0,
-				"waterLeftTime": 2,
-				"requirement": 0
+				"grownTime": 43216071,
+				"oldTime": 1792413493015,
+				"stuck": false,
+				"waterCD": 8291.165704823248,
+				"waterLeftTime": -1,
+				"requirement": 1
 			},
 			{
 				"plant": "bloomerang",
 				"inZen": 0,
 				"pos": 13,
-				"grownTime": 0,
-				"oldTime": 1791200619394,
-				"stuck": true,
-				"waterCD": 0,
-				"waterLeftTime": 2,
-				"requirement": 0
+				"grownTime": 43216304,
+				"oldTime": 1792413493015,
+				"stuck": false,
+				"waterCD": 7327.011829429373,
+				"waterLeftTime": -1,
+				"requirement": 1
+			},
+			{
+				"plant": "iceburg",
+				"inZen": 0,
+				"pos": 12,
+				"grownTime": 43216821,
+				"oldTime": 1792413493015,
+				"stuck": false,
+				"waterCD": 8240.48665911521,
+				"waterLeftTime": -1,
+				"requirement": 1
+			},
+			{
+				"plant": "threepeater",
+				"inZen": 0,
+				"pos": 16,
+				"grownTime": 43218972,
+				"oldTime": 1792413493015,
+				"stuck": false,
+				"waterCD": 8407.73342902486,
+				"waterLeftTime": -1,
+				"requirement": 1
+			},
+			{
+				"plant": "kernelpult",
+				"inZen": 0,
+				"pos": 17,
+				"grownTime": 21618372,
+				"oldTime": 1792413493015,
+				"stuck": false,
+				"waterCD": 8182.262315505499,
+				"waterLeftTime": -1,
+				"requirement": 1
+			},
+			{
+				"plant": "laser_bean",
+				"inZen": 0,
+				"pos": 18,
+				"grownTime": 21618315,
+				"oldTime": 1792413493015,
+				"stuck": false,
+				"waterCD": 7340.008877984197,
+				"waterLeftTime": -1,
+				"requirement": 1
 			}
 		],
 		"plantsInMushroom": [],
@@ -3107,13 +3957,13 @@
 	},
 	"cardDecks": [],
 	"memoryPlantChoose": [
-		"squash",
-		"twinsunflower",
-		"melonpult",
-		"iceweed",
+		"sunshroom",
+		"peashooter",
+		"wallnut",
+		"potatomine",
 		"iceburg",
-		"lightningreed",
-		"cherry_bomb"
+		"gravebuster",
+		"squash"
 	],
 	"difficulty": 2,
 	"worldProps": {
@@ -3125,12 +3975,12 @@
 		"1": {
 			"unlocked": true,
 			"viewed": true,
-			"wmx": -4880.886798563569
+			"wmx": 0
 		},
 		"2": {
 			"unlocked": true,
 			"viewed": true,
-			"wmx": 0
+			"wmx": -4355.130520610076
 		},
 		"3": {
 			"unlocked": true,
@@ -3139,13 +3989,13 @@
 		},
 		"4": {
 			"unlocked": true,
-			"viewed": false,
-			"wmx": 0
+			"viewed": true,
+			"wmx": -613.7294163592869
 		},
 		"5": {
-			"unlocked": false,
-			"viewed": false,
-			"wmx": 0
+			"unlocked": true,
+			"viewed": true,
+			"wmx": 18.959000000000003
 		},
 		"6": {
 			"unlocked": false,
@@ -3257,8 +4107,8 @@
 			"viewed": false,
 			"wmx": 0
 		},
-		"currentWM": 1,
-		"worldChooserPos": 1
+		"currentWM": 0,
+		"worldChooserPos": 4
 	},
 	"player_dangerroom": {
 		"chooser": {
@@ -3315,7 +4165,12 @@
 		},
 		"future": {
 			"level": 1,
-			"plants": [],
+			"plants": [
+				"sunflower",
+				"peashooter",
+				"wallnut",
+				"twinsunflower"
+			],
 			"plantfood": 0,
 			"mower": [
 				true,
@@ -3324,7 +4179,7 @@
 				true,
 				true
 			],
-			"plantChosen": false
+			"plantChosen": true
 		},
 		"dark": {
 			"level": 1,
